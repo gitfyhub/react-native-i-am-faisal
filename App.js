@@ -42,7 +42,7 @@ const App: () => React$Node = () => {
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>About Me</Text>
               <Text style={styles.sectionDescription}>
-                I am a Chicago based Solution Architect / Software Engineer,
+                I am a Chicago based Solution Engineer,
                 currently employed by Aon where I work on E-commerce and Data
                 Integration projects.
               </Text>
@@ -107,14 +107,14 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   sectionDescription: {
-    marginTop: 8,
+    marginTop: 19,
     fontSize: 14,
     fontWeight: '400',
     color: Colors.dark,
     textAlign: 'center',
   },
   sectionDescriptionWork: {
-    marginTop: 8,
+    marginTop: 15,
     fontSize: 14,
     fontWeight: '400',
     color: Colors.dark,

@@ -24,7 +24,7 @@ const links = [
   {
     title: 'Email',
     link: 'mailto:faisal.cx.web@gmail.com',
-    description: 'I look forward to connecting with you, reach out to me through email. Email: faisal.cx.web@gmail.com',
+    description: 'faisal.cx.web@gmail.com',
   },
   {
     title: 'CV',
