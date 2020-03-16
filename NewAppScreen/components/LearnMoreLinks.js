@@ -17,6 +17,11 @@ import React from 'react';
 
 const links = [
   {
+    title: 'Personal website',
+    link: 'http://www.faisal.cx',
+    description: 'faisal.cx',
+  },
+  {
     title: 'Email',
     link: 'mailto:faisal.cx.web@gmail.com',
     description: 'I look forward to connecting with you, reach out to me through email. Email: faisal.cx.web@gmail.com',
@@ -61,7 +66,7 @@ const links = [
   },
   {
     title: 'Daniel Johnson - Sr. Global Informatics Product Manager - Business Intelligence',
-    link: 'blank',
+    link: '',
     description: 'Faisal was amazing to work with on the AlinIQ BIS project at Abbott Diagnostics. He was my go-to person for creative solutions for complex issues regarding AWS, coding, new development, etc. One of his strengths was to be able to be adaptable and agile in his environment, as taking on responsibilities as needed such as scrum master, mini-project manager, AWS consultant, lead developer, and coach. I recommend Faisal since he was such an asset to my team and me.',
   },
   {
@@ -79,7 +84,7 @@ const LinkList = (): Node => (
           <View style={styles.separator} />
           <TouchableOpacity
             accessibilityRole={'button'}
-            onPress={() => openURLInBrowser(item.link)}
+            onPress={() => item.link!=''? openURLInBrowser(item.link):'' }
             style={styles.linkContainer}>
             <Text style={styles.link}>{item.title}</Text>
             <Text style={styles.description}>{item.description}</Text>
