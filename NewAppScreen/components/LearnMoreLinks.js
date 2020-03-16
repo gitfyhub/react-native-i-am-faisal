@@ -43,16 +43,16 @@ const links = [
     description: 'github.com/gitfyhub',
   },
   {
-    title: 'Education',
+    title: 'DePaul University',
     link: '',
     description:
-      'DePaul University - Bachelor\'s in Computer Science',
+      'Bachelor\'s in Computer Science',
   },
   {
-    title: 'Education',
+    title: 'DePaul University',
     link: '',
     description:
-      'DePaul University - Completed 2 Master\'s level degree courses in Java Development',
+      'Completed 2 Master\'s level courses in Java development',
   },
   {
     title: 'Favorite Tech',
